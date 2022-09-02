@@ -1,0 +1,20 @@
+.container {
+  background: darkgray;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  margin-right: 10px;
+}
