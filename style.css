@@ -1,5 +1,5 @@
 .container {
-  background: rgb(240, 172, 2);
+  background: rgb(16, 64, 153);
   display: flex;
   align-items: center;
 }
@@ -15,7 +15,33 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-right: 20px;
   margin-left: 20px;
 }
+
+.contactbutton {
+  color: black;
+}
+
+.box {
+  height: 600px;
+  width: 100%;
+  background: rgb(169, 169, 159);
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.bottombox {
+   height:200px;
+   width: 100%;
+   background:rgb(81, 80, 106);
+
+   display: flex;
+   align-items: center;
+   justify-content: left;
+}
+
+
