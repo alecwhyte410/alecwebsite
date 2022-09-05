@@ -1,7 +1,11 @@
 .container {
-  background: rgb(16, 64, 153);
+  background: #335c67;
   display: flex;
   align-items: center;
+}
+
+.pageContainer {
+  padding: 5px 20px;
 }
 
 h3 {
@@ -10,35 +14,102 @@ h3 {
 }
 
 body {
+  font-family: Arial, sans-serif;
   margin: 0px;
-  background:rgb(169, 169, 159);
+  background: #ffffff;
+}
+
+.absoluteFun {
+  bottom: 0px;
+  left: 35%;
+  position: absolute;
+  background-color: purple;
+  color: greenyellow;
+  width: 400px;
+  height: 50px;
+}
+
+.skillOverlay {
+  display: none;
+}
+
+.skill:hover .skillOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  height: 200px;
 }
 
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.link:hover {
+  background: #68adc1;
+  padding: 10px;
+  border-radius: 7px;
+}
+.link {
+  padding: 10px;
 }
 
 .contactbutton {
-  color: black;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #540b0e;
+  color: white;
+}
+
+.contactbutton:hover {
+  background-color: #9e2a2b;
+}
+
+.skills {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  position: relative;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.skill:hover {
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .box {
   height: 400px;
   width: 100%;
-  background: rgb(169, 169, 159);
+  background: #ffffff;
 
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
-
 .sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
-
