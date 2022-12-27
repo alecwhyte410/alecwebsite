@@ -1,7 +1,9 @@
 .container {
-  background: #335c67;
+  background: #ffffff;
   display: flex;
   align-items: center;
+  padding: 20px;
+  justify-content: space-between;
 }
 
 .pageContainer {
@@ -19,16 +21,6 @@ body {
   background: #ffffff;
 }
 
-.absoluteFun {
-  bottom: 0px;
-  left: 35%;
-  position: absolute;
-  background-color: purple;
-  color: greenyellow;
-  width: 400px;
-  height: 50px;
-}
-
 .skillOverlay {
   display: none;
 }
@@ -40,21 +32,22 @@ body {
   font-size: 25px;
   font-weight: bold;
   position: absolute;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 200px;
   height: 200px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin-right: 5px;
   margin-left: 5px;
 }
 .link:hover {
-  background: #68adc1;
+  background: #4c5457;
   padding: 10px;
   border-radius: 7px;
+  color: white;
 }
 .link {
   padding: 10px;
@@ -112,4 +105,31 @@ a {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.topleftlogo {
+  height: 30px;
+  width: 105px;
+}
+
+.background {
+  width: 100%;
+}
+
+/* Container holding the image and the text */
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: Chalkduster;
 }
