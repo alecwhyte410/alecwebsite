@@ -19,6 +19,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0px;
   background: #ffffff;
+  overscroll-behavior: none;
 }
 
 .skillOverlay {
@@ -44,10 +45,10 @@ a {
   margin-left: 5px;
 }
 .link:hover {
-  background: #4c5457;
+  background: #ffffff;
   padding: 10px;
   border-radius: 7px;
-  color: white;
+  color: rgb(183, 169, 169);
 }
 .link {
   padding: 10px;
@@ -105,7 +106,9 @@ a {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
+
 
 .topleftlogo {
   height: 30px;
@@ -129,7 +132,45 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-family: Chalkduster;
 }
+
+.socialLogos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.logos {
+  width: 30%;
+  width: 30%;
+  padding: 10px;
+}
+
+.socials.html {
+  background-color:  rgb(0, 0, 0);
+}
+
+.centered2 {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: serif;
+}
+
+.facebookBackground {
+background-color: #ffffff;
+}
+
+.instagramBackground {
+  background-color: #4c5457;
+}
+
+
+
+
