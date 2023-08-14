@@ -18,7 +18,7 @@ h3 {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Gill Sans', sans-serif;
   margin: 0px;
   background: #ffffff;
   overscroll-behavior: none;
@@ -48,7 +48,7 @@ body {
   color: white;
   margin-top: 50px;
   z-index: 101;
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Gill Sans', sans-serif;
 }
 
 .contactbutton {
@@ -518,7 +518,8 @@ section {
 
 .nicecurves {
   margin: 0px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: large;
   color: white;
   background: #202731;
 }
