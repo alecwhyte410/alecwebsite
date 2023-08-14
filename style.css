@@ -51,6 +51,10 @@ body {
   font-family: 'Gill Sans', sans-serif;
 }
 
+.navbarlink:hover {
+  color: #b9babd;
+}
+
 .contactbutton {
   border-radius: 7px;
   padding-top: 10px;
