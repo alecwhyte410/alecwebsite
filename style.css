@@ -1,13 +1,15 @@
-.container {
-  background: #ffffff;
+.navbar {
   display: flex;
   align-items: center;
   padding: 20px;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .pageContainer {
   padding: 5px 20px;
+  margin: 0px;
+  padding-top: 200px;
 }
 
 h3 {
@@ -20,11 +22,13 @@ body {
   margin: 0px;
   background: #ffffff;
   overscroll-behavior: none;
+  
 }
 
 .skillOverlay {
   display: none;
 }
+
 
 .skill:hover .skillOverlay {
   display: flex;
@@ -38,20 +42,13 @@ body {
   height: 200px;
 }
 
-a {
+.navbarlink {
+  padding: 20px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-right: 5px;
-  margin-left: 5px;
-}
-.link:hover {
-  background: #ffffff;
-  padding: 10px;
-  border-radius: 7px;
-  color: rgb(183, 169, 169);
-}
-.link {
-  padding: 10px;
+  color: white;
+  margin-top: 50px;
+  z-index: 101;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .contactbutton {
@@ -62,6 +59,7 @@ a {
   padding-right: 20px;
   background: #540b0e;
   color: white;
+  text-decoration: none;
 }
 
 .contactbutton:hover {
@@ -102,18 +100,23 @@ a {
   justify-content: left;
 }
 
-.sticky {
+.navbarsticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 100;
+}
+
+.topleftname {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Sofia-pro,sans-serif';
+  text-align: left;
+  margin: 0px 0px 0px 20px;
+  
 }
 
 
-.topleftlogo {
-  height: 30px;
-  width: 105px;
-}
+
 
 .background {
   width: 100%;
@@ -127,21 +130,19 @@ a {
 }
 
 /* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-  font-size: 50px;
-  font-family: Chalkduster;
+.centeredtextforindex {
+  color: white;
+  font-family: chalkduster;
+  margin: 0px;
+  padding: 200px;
+  text-align: center;
+  background-color: #000;
 }
 
 .socialLogos {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
 }
 
 .logos {
@@ -151,7 +152,7 @@ a {
 }
 
 .socials.html {
-  background-color:  rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .centered2 {
@@ -164,12 +165,447 @@ a {
 }
 
 .facebookBackground {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .instagramBackground {
   background-color: #4c5457;
 }
+
+/*WORK APPLICATION*/
+.workcontainer {
+  width: 400px;
+  height: 400px;
+  border-radius: 6px;
+  overflow: scroll;
+  box-shadow: 7px 7px 7px grey;
+  color: white;
+}
+
+.flexboxforwork {
+  display: flex;
+  padding-top: 200px;
+  gap: 10px;
+}
+
+.div1 {
+  background-color: black;
+  padding: 20px 40px;
+  justify-content: space-between;
+  margin: 40px 0px 0px 0px;
+}
+
+.description {
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+input,
+select,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.fieldset {
+  max-width: 400px;
+  margin: 30px auto;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  font-family: arial;
+  font-weight: 540;
+}
+
+.label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.submit {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  border-color: white;
+  min-width: 300px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+/*DAVID GOGGINS PART*/
+
+.linkdesc {
+  margin: 0px;
+}
+.div2 {
+  background-color: #f7f7f7;
+  height: 440px;
+  width: 480px;
+  justify-content: space-between;
+  margin: 40px 0px 0px 0px;
+}
+
+.sectiondavidgoggins {
+  padding:0px;
+}
+
+.davidgogginsheader {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.h1davidgoggins {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  color: white;
+  font-family: Times New Roman;
+  font-size: 60;
+}
+
+.pdavidgoggins {
+  margin: 0;
+  padding: 5px 0 20px 0;
+  color: white;
+  font-size: 13;
+}
+
+.img-div > img {
+  width: 80%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-div {
+  padding: 50px 0 0 0;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 12;
+}
+
+.timeline {
+  padding: 25px;
+  text-align: center;
+  color: black;
+  background-color: #f7f7f7;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  padding: 7px;
+  font-size: 12px;
+}
+
+.bullet-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bullet-list li {
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.bullet-list li::before {
+  content: "\2022";
+  margin-right: 10px;
+}
+
+.quote {
+  font-size: 12;
+  text-align: center;
+  background-color: #f5b553;
+  color: white;
+  border-top: 15px solid #f7f7f7;
+  padding-bottom: 10px;
+}
+
+
+
+.name {
+  padding: 0;
+}
+
+.workpagetitle {
+  text-align: center;
+  color: white;
+  font-family: chalkduster;
+  margin: 0px;
+  padding: 200px;
+}
+
+.workpagetitlecontainer {
+  background-color: black;
+}
+
+.contactmetitle {
+  text-align: center;
+  color: white;
+  font-family: chalkduster;
+  margin: 0px;
+  padding: 200px;
+}
+
+.contactmecontainer {
+  background-color: black;
+}
+
+.aboutmeskillstitle {
+  text-align: center;
+  color: white;
+  font-family: chalkduster;
+  margin: 0px;
+  padding: 200px;
+}
+
+.aboutmeskillscontainer {
+  background-color: black;
+}
+
+.photogallerytitlecontainer {
+  background-color: black;
+  text-align: center;
+  padding: 200px;
+}
+
+.photogallerytitle {
+  color: white;
+  font-family: chalkduster;
+  margin: 0px;
+  padding: 10px;
+}
+
+.photogallerytitledescription {
+  color: white;
+  font-family: "Lucida Handwriting";
+  margin: 0px;
+  padding: 10px;
+}
+
+.testingtitlecontainer {
+  background-color: black;
+
+}
+
+.testingtitle {
+  color: white;
+  font-family: chalkduster;
+  margin: 0px;
+  padding: 200px;
+  text-align: center;
+}
+
+.nounderline {
+  text-decoration: none;
+}
+.hover-1 {
+  --c: #dd3f31; /* the color */
+  --s: .15em;
+  
+  line-height:1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.hover-1:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+
+.hover-3 {
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #fff; /* the color */
+  
+  color: #fff;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.hover-3:hover {
+  --_p: 100%;
+  --_s: .3s;
+}
+
+.colorfulbackground {
+  background-color: #000;
+  z-index: 99;
+}
+
+.colorfulbackgroundcontainer {
+
+  padding-top: 20px;
+  
+}
+
+.whitebackgrounddiv {
+  background-color: #fff;
+  width: 100%;
+  height: 1000px;
+  z-index: 10;
+}
+
+.rightlinkscolorfulbackground {
+text-align: right;
+}
+
+nav {
+  text-align: right;
+  display: inline;
+}
+
+.navbarcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 200px 20vw 80px 20vw;
+}
+
+.nicecurves {
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background: #202731;
+}
+
+.blue {
+  background: #3c31dd;
+}
+
+.red {
+  background: #dd3f31;
+}
+
+.pink {
+  background: #ff0066;
+  overflow: hidden;
+}
+
+.dark {
+  background: #0f0f10;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 100;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(102% + 1.3px);
+  height: 136px;
+}
+
+.wave .shape-fill {
+  fill: #202731
+}
+
+
+
+.reallycoolwave {
+  position: absolute;
+ z-index: 100;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.reallycoolwave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 111px;
+}
+
+.reallycoolwave .shape-fill {
+  fill: #000;
+}
+
+.bubblebottom {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 100;
+}
+
+.bubblebottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 99px;
+}
+
+.bubblebottom .shape-fill {
+  fill: #3c31dd;
+}
+
+
+
+
+
 
 
 

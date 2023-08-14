@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Blog</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="assets/images/awlogo.png" />
+    
+  </head>
+
+  <body>
+    <div class="colorfulbackground colorfulbackgroundcontainer">
+      <div class="navbarcontainer">
+      <a class="nounderline topleftname hover-3" href="index.html">Alec Whyte</a>
+    <nav>
+      <a href="index.html" class="navbarlink">Home page</a>
+      <a href="photogallery.html" class="navbarlink">Photo Gallery</a>
+      <a href="aboutme.html" class="navbarlink">About me</a>
+      <a href="contactme.html" class="navbarlink">Contact me</a>
+      <a href="work.html" class="navbarlink">Work</a>
+      <a href="testing.html" class="navbarlink">Testing</a>
+    </nav>
+  </div>
+  </div>
+
+   
+<div class="workpagetitlecontainer">
+<h1 class="workpagetitle">Work I've Done</h1>
+</div>
+<div class="reallycoolwave">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+  </svg>
+</div>
+
+</body>
+<div class="flexboxforwork">
+<!--1ST CONTAINER-->
+<div class="flexworkcontainer">
+<div class="workcontainer div1">
+  <div class="flex">
+  <h1 id="workformtitle" class="workformtitle">Job application</h1>
+</div>
+  <p id="description" class="description">Please fill out this form for a chance to get hired by Kola.co</p>
+  <form id="survey-form">
+    <fieldset class="fieldset">
+      <label class="label" for="name" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required></label>
+      <label class="label" for="email" id="email-label"> Email <input type="email" id="email" placeholder="Enter your email" required></label>
+      <label class="label" for="number" id="number-label"> Age <small>(optional)</small> <input type="number" id="number" min="10" max="120" placeholder="Age"></label>
+      <label class="label" for="dropdown" id="dropdown-label">Employment Desired
+      <select id="dropdown" required>
+        <option value="">Select one</option>
+        <option value="1">Full-time</option>
+        <option value="2">Part-time</option>
+        <option value="3">Seasonal</option>
+        </select>
+        </label>
+      <!--Are you a citizen-->
+      <label class="label" >Are you a US citizen?</label>
+      <label class="label" for="yes"><input id="yes" type="radio" name="are-you-citizen" class="inline" value="Yes" required/> Yes</label>
+      <label class="label" for="No"><input id="No" type="radio" name="are-you-citizen" class="inline" value="no" /> No</label>
+      <!--Felony-->
+      <labelclass="label" >
+      <label class="label">Have you commited a felony?</label>
+      <label class="label" for="yes"><input id="yes" type="radio" name="have-you-commited" class="inline" value="Yes" required/> Yes</label>
+      <label class="label" for="No"><input id="No" type="radio" name="have-you-commited" class="inline" value="no"/> No</label>
+      <label class="label" for="explain" id="label-explain">If yes, explain..<input type="text" id="explain" placeholder="Explain here..." ></label>
+      <label class="label" for="good-fit" id="label-good-fit"> Why are you a good fit for this job? <textarea id="good-fit" name="good-fit" rows="3" cols="30" placeholder="I'm a good fit for this job because..."></textarea></label>
+      <label class="label">Did you complete the entire form? </label>
+      <label class="label">
+    <input type="checkbox" name="option1" value="Option 1" class="inline">
+    Yes
+  </label>
+      <label class="label">
+    <input type="checkbox" name="option2" value="Option 2" class="inline">
+   No
+  </label>
+    </fieldset>
+    <input class="submit" type="submit" value="Submit" id="submit"/>
+  </form>
+</div>
+<!--SECOND CONTAINER-->
+<div class="workcontainer div2">
+  <div class="davidgogginsheader">
+  <h1 class="h1davidgoggins">David Goggins</h1>
+  <p class="pdavidgoggins">Running phenom and inspiration to many</p>
+  </div>
+  <div class="img-div" id="img-div">
+    <img id="image" src="https://run247.com/wp-content/uploads/2023/02/david-goggins-badwater.jpg" alt="gogginsphoto1">
+    <div id="img-caption">
+    <p id="img-caption">David Goggins running the Badwater-135, a 135 mile race from Badwater Basin to Whitney Portal
+    </p>
+    </div>
+  </div>
+  <section class="sectiondavidgoggins">
+  <div class="timeline" id="tribute-info">
+    <p>Timeline of David Goggins life</p>
+    <ul class="bullet-list">
+      <li>1975: David Goggins is born on February 17, in Buffalo, New York.</li>
+      <li>1983: At the age of 8, Goggins' family moves to Brazil, Indiana.</li>
+      <li>1993: Goggins graduates from Brazil High School and enlists in the United States Air Force.</li>
+      <li>1994: Goggins attends Air Force basic training at Lackland Air Force Base in Texas.</li>
+      <li>1995: He completes the Tactical Air Control Party (TACP) training and becomes a member of the United States
+        Air Force Tactical Air Control Party.</li>
+      <li>2001: Goggins serves as a TACP during Operation Enduring Freedom in Afghanistan.</li>
+      <li>2004: Goggins decides to leave the Air Force and pursue a career in the Navy SEALs.</li>
+      <li>2005: After overcoming significant obstacles and losing over 100 pounds, Goggins enters the Navy SEAL
+        training program, also known as Basic Underwater Demolition/SEAL (BUD/S) training.</li>
+      <li>2005-2006: Goggins goes through Hell Week and successfully completes BUD/S training, becoming a Navy SEAL.
+      </li>
+      <li>2006-2012: Goggins serves as a Navy SEAL, completing several deployments to Iraq and Afghanistan.</li>
+      <li>2006-2012: Goggins serves as a Navy SEAL, completing several deployments to Iraq and Afghanistan.</li>
+      <li>2010: Goggins discovers his passion for ultra-endurance events and participates in his first endurance race,
+        the San Diego One Day.</li>
+      <li>2013: He sets the Guinness World Record for the most pull-ups completed in 24 hours, accomplishing 4,030
+        pull-ups.</li>
+      <li>2014: Goggins competes in the Badwater 135 ultramarathon, known as one of the toughest foot races in the
+        world, and finishes in 5th place.</li>
+      <li>2016: He writes his memoir, "Can't Hurt Me: Master Your Mind and Defy the Odds," in collaboration with
+        author Adam Skolnick.</li>
+      <li>2018: Goggins gains widespread recognition for his motivational speaking and appearances on various
+        podcasts, sharing his inspiring life story and philosophy of pushing past mental and physical limits.</li>
+      <li>2020: He releases the self-help book "Living with a SEAL: 31 Days Training with the Toughest Man on the
+        Planet," co-authored with Jesse Itzler.</li>
+      <li>2021: Goggins continues to inspire millions through his motivational content, podcasts, and public speaking
+        engagements, promoting the idea of embracing discomfort and pushing oneself beyond perceived limits</li>
+    </ul>
+  </div>
+  </section>
+  <section class="quote sectiondavidgoggins">
+<p><i>"You are in danger of living a life so comfortable<br> and soft that you will die without ever <br>realizing your true potential."</i></p>
+
+<p class="name">David Goggins</p>
+<p class="linkdesc">If you have any more time you can <br>visit his website at <a href="https://davidgoggins.com/" id="tribute-link" target="_blank">davidgoggins.com</a></p>
+  </section>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
